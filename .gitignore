@@ -1,0 +1,12 @@
+# Built binaries
+/bin/
+
+# Test and coverage output
+*.out
+*.test
+
+# Go build cache kept inside the repo (sandboxed tooling can't write to ~/Library)
+/.gocache/
+
+# Local data produced by the CLI during experiments
+/data/
